@@ -1,0 +1,24 @@
+.geo-message{
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    z-index: 1000000;
+    background-color: black;
+    margin: 0;
+}
+
+.geo-message--fixedtop{
+    position: fixed;
+    top: 0px;
+}
+
+.geo-message--fixedbottom{
+    position: fixed;
+    bottom: 0.01px;
+}
+
+/* if menu fixed, fix menu bug relative */
+.fix{
+    position: relative !important;
+}
